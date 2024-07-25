@@ -1,0 +1,26 @@
+{
+  "name": "crash-course",
+  "version": "1.0.0",
+  "description": "node crash course, learning node and express for backend, after this to mern",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "main"
+  },
+  "author": "balu",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.5.1",
+    "morgan": "^1.10.0"
+  }
+}
